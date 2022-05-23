@@ -1,0 +1,24 @@
+@mixin orange{
+    background-color: $bright-orange;
+
+    & button{
+        color: $bright-orange;
+    }
+}
+
+@mixin dark-cyan{
+    background-color: $dark-cyan;
+
+    & button{
+        color: $dark-cyan;
+    }
+
+}
+
+@mixin very-dark-cyan{
+    background-color: $very-dark-cyan;
+
+    & button{
+        color: $very-dark-cyan;
+    }
+}

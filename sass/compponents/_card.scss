@@ -1,0 +1,57 @@
+
+.card--orange{
+    @include orange;
+}
+.card--dark-cyan{
+    @include dark-cyan;
+}
+.card--very-dark-cyan{
+    @include very-dark-cyan;
+}
+
+.card{
+
+    &-preview{
+
+        & div:first-child{
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+
+        & div:last-child{
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+
+        &-column{
+            height: 44rem;
+            width: 32.5rem;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            padding: 4.8rem;
+
+            &__icon{
+                height: 4rem;
+                width: 6.5rem;
+            }
+
+            &__title{
+                margin-top: 4rem;
+                font-size: 4rem;
+                text-transform: uppercase;
+                color: $very-light-gray;
+            }
+
+            &__description{
+                margin-top: 4rem;
+                font-size: 1.5rem;
+                color: $transparent-white-p;
+            }
+
+            & button{
+                margin-top: 3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+/*font-family: 'Big Shoulders Display', cursive  - 400;
+font-family: 'Lexend Deca', sans-serif; - 700*/
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+button {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 4rem;
+  height: 5rem;
+  width: 15rem;
+  text-transform: capitalize;
+}
+.btn:hover {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: hsl(0deg, 0%, 95%);
+  color: hsl(0deg, 0%, 95%);
+  transition: all 0.6s;
+}
+
+.card--orange {
+  background-color: hsl(31deg, 77%, 52%);
+}
+.card--orange button {
+  color: hsl(31deg, 77%, 52%);
+}
+
+.card--dark-cyan {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.card--dark-cyan button {
+  color: hsl(184deg, 100%, 22%);
+}
+
+.card--very-dark-cyan {
+  background-color: hsl(179deg, 100%, 13%);
+}
+.card--very-dark-cyan button {
+  color: hsl(179deg, 100%, 13%);
+}
+
+.card-preview div:first-child {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.card-preview div:last-child {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.card-preview-column {
+  height: 44rem;
+  width: 32.5rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 4.8rem;
+}
+.card-preview-column__icon {
+  height: 4rem;
+  width: 6.5rem;
+}
+.card-preview-column__title {
+  margin-top: 4rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: hsl(0deg, 0%, 95%);
+}
+.card-preview-column__description {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.card-preview-column button {
+  margin-top: 3rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
