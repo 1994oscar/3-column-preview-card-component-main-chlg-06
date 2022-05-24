@@ -89,7 +89,6 @@ body {
   border-bottom-right-radius: 1rem;
 }
 .card-preview-column {
-  height: 44rem;
   width: 32.5rem;
   display: flex;
   flex-direction: column;
@@ -110,6 +109,7 @@ body {
   margin-top: 4rem;
   font-size: 1.5rem;
   color: hsla(0deg, 0%, 100%, 0.75);
+  line-height: 2.4rem;
 }
 .card-preview-column button {
   margin-top: 3rem;
