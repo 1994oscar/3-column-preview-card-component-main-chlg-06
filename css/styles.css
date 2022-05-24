@@ -13,7 +13,7 @@ h1 {
   font-family: "Big Shoulders Display", cursive;
 }
 
-p {
+p, a, body {
   font-family: "Lexend Deca", sans-serif;
 }
 
@@ -43,6 +43,16 @@ body {
   padding-bottom: 3rem;
 }
 
+.attribution {
+  text-align: center;
+  font-size: 1.6rem;
+  color: hsl(179deg, 100%, 13%);
+}
+.attribution a {
+  color: hsl(31deg, 77%, 52%);
+  text-decoration: none;
+}
+
 .btn {
   border: none;
   border-radius: 4rem;
@@ -51,6 +61,7 @@ body {
   text-transform: capitalize;
 }
 .btn:hover {
+  cursor: pointer;
   background-color: transparent;
   border-style: solid;
   border-width: 0.2rem;
@@ -100,7 +111,7 @@ body {
   width: 6.5rem;
 }
 .card-preview-column__title {
-  margin-top: 4rem;
+  margin-top: 3rem;
   font-size: 4rem;
   text-transform: uppercase;
   color: hsl(0deg, 0%, 95%);
@@ -113,6 +124,22 @@ body {
 }
 .card-preview-column button {
   margin-top: 3rem;
+}
+@media screen and (min-width: 1024px) {
+  .card-preview {
+    margin-top: 9rem;
+    display: flex;
+  }
+  .card-preview div:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  .card-preview div:last-child {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

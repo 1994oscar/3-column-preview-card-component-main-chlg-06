@@ -6,6 +6,7 @@
     text-transform: capitalize;
 
     &:hover{
+        cursor: pointer;
         background-color: transparent;
         border-style: solid;
         border-width: .2rem;

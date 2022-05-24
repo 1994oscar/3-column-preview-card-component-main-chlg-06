@@ -15,7 +15,7 @@ h1{
     font-family: 'Big Shoulders Display', cursive;
 }
 
-p{
+p,a,body{
     font-family: 'Lexend Deca', sans-serif;
 }
 
@@ -42,4 +42,14 @@ body{
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 3rem;
+}
+
+.attribution{
+    text-align: center;
+    font-size: 1.6rem;
+    color: $very-dark-cyan;
+    & a{
+        color: $bright-orange;
+        text-decoration: none;
+    }
 }
